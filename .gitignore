@@ -1,0 +1,28 @@
+# keyper never commits a vault or its logs
+vault.json
+vault.json.tmp
+access.log
+*.vault.json
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# local env files
+.env
+.env.*
+!examples/.env.example
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
